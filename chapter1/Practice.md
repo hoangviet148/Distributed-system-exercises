@@ -70,6 +70,8 @@
   - Topic: Là nơi tiếp nhận, lưu trữ messages
   - Listener: đưa ra cơ chế bất đồng bộ trong việc gửi nhận message
 - Câu 3: Giải thích cơ chế chuyền và nhận thông điệp của Sender và Receiver
+  - Khi có 1 msg thì Sender sẽ gửi msg vào một hàng đợi đặc biệt gọi là topic
+  - Thành phần quản lý trong topic sẽ tự động chuyển topic đến các tiến trình đăng ký topic này
 - Câu 4: So sánh JMS và DDS
   - JMS: 
     - Là chuẩn messages cho phép các thành phần của ứng dụng dựa trên JAVA EE có thể tạo, gửi, nhận, đọc message
