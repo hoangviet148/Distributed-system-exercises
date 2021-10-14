@@ -63,3 +63,28 @@
   <image src="./images/3/after.png" width=500>
 
 # 4. Kiến trúc JMS và DDS
+- Câu 1: Vai trò của application server glassfish
+  - Ở đây glassfish đóng vài trò như một Event broker, là trung gian để các component trao đổi dữ liệu với nhau thông qua cơ chế pulisher và subscriber
+- Câu 2: Tại sao phải tạo 2 JNDI như trên
+  - TopicConnectionFactory: là nơi đưa ra kết nối trên server đến chỗ lưu trữ message để từ đó có thể gửi và nhận dữ liệu
+  - Topic: Là nơi tiếp nhận, lưu trữ messages
+  - Listener: đưa ra cơ chế bất đồng bộ trong việc gửi nhận message
+- Câu 3: Giải thích cơ chế chuyền và nhận thông điệp của Sender và Receiver
+- Câu 4: So sánh JMS và DDS
+  - JMS: 
+    - Là chuẩn messages cho phép các thành phần của ứng dụng dựa trên JAVA EE có thể tạo, gửi, nhận, đọc message
+    - Cho phép sự truyền thông tin một cách không đồng bộ, đáng tin cậy giữa các thành phần khác nhau, lỏng lẻo của một ứng dụng phân tán.
+    - Hỗ trợ cả mô hình point-to-point và publish/subscribe.
+    - Tập trung chủ yếu cho các hệ thống Java.
+    - Không đảm bảo tính tương thích giữa các publisher và subscriber sử dụng những ứng dụng JMS khác nhau
+  - DDS
+    - Là chuẩn middleware cho phép trao đổi dữ liệu với hiệu năng cao, mang tính thời gian thực, tương thích giữa publisher và subscriber.
+    - Độc lập cả về mặt ngôn ngữ và hệ điều hành. DDS đã được triển khai với nhiều ngôn ngữ lậptrình khác nhau như C++, Java, Ruby, ...
+- Cài đặt DDS
+  - Publisher
+
+  <image src="./images/4/dds-pub.png" width=500>
+
+  - Subscriber 
+
+  <image src="./images/4/dds-sub.png" width=500>
