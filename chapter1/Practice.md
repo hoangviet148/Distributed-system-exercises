@@ -17,16 +17,10 @@
 
     <image src="./images/1/local-test.png" width=500>
 
-  - Giải thích
+  - Giải thích: khi truy cập example.com hoặc test.com thì dns sẽ đọc file /etc/hosts trước và phân giải 2 doamin này ra 127.0.0.1 và mặc định sẽ truy cập vào port 80. Lúc này apache sẽ đọc các file cấu hình virtual host và các virtual host đều có cấu hình *:80 (chấp nhận kết nối từ mọi IP đến cổng 80) nên apache sẽ tiếp tục đọc ServerName và lúc này sẽ tìm ra đúng cấu hình virtual host ứng với domain và truy cập vào thư mục được định nghĩa và trả về file html, php, ...
 
 - Câu hỏi 5: Truy cập từ máy tính khác cùng mạng lan
-  - example.com
-
-    <image src="./images/1/remote-example.png" width=500>
-
-  - test.com
-
-    <image src="./images/1/remote-test.png" width=500>
+  - Không thể truy cập được do example.com và test.com chỉ là local domain
 
 # 2. Interface trong java
 - Câu hỏi 6: Viết vòng lặp để gửi array đến người dùng
