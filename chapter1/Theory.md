@@ -38,7 +38,7 @@ Mã HP: IT4611
 |Type|multi-computer và multiprocessor|Peer to peer và client/server
 |Communication|Giao tiếp qua files|Giao tiếp bằng messages
 |Transparency|low|hight
-|Example|Windows 2000, Windows XP|Unix
+|Example|Windows 2000, Windows XP|Plan9, Inferno OS
 ||<image src="https://images.viblo.asia/5ebb6ed3-0f9b-460b-88f0-4f0768990051.png">|<image src="https://images.viblo.asia/c29b5a70-93aa-4b42-9766-617d852ab08d.png">|
 <br>
 - Middleware là sự kết hợp ưu điểm của cả 2 mô hình trên vì middleware thừa kế tính trong suốt của DOS và tính mở của NOS
@@ -87,5 +87,7 @@ Mã HP: IT4611
 
 # Câu 11: Kiến trúc client-server 
 - Khi client không được báo nhận từ phía server thì client sẽ không biết là do server chưa nhận được yêu cầu hay thông điệp báo nhận bị mất trên đường truyền. Lúc này tùy thuộc vào tính chất của dịch vụ hay ứng dụng mà client có gửi lại yêu cầu không
+- Tiến trình bị hủy nếu một tầng ở giữa bị hỏng
 
 # Câu 12:
+- Giải thuật chưa tối ưu
