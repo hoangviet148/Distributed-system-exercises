@@ -12,6 +12,12 @@ Mã HP: IT4611
 <image src="./images/1/q1.png"><br>
 
 # Câu hỏi 3: Bạn hãy thử reload (Ctrl-R) lại trình duyệt. Bạn có nhìn thấy gì mới xuất hiện trên cửa sổ không? Nếu không có gì xuất hiện hết thì là vì sao?
+- Không có gì xuất hiện trên của sổ cả
+- Bỏi vì ở client lúc này chưa khai báo socket.io
+- Sau khi khai báo socket ở client thì mỗi làn reload ở terminal sẽ xuất hiện
+
+<image src="./images/1/q3.png">
+
 # Câu hỏi 4: Refresh trang localhost:3000, bạn nhìn thấy thông điệp nào?
 
 <image src="./images/1/q4.png"><br>
@@ -22,7 +28,7 @@ Mã HP: IT4611
 |-|-|
 |<image src="./images/1/q5.png"><br> | <image src="./images/1/q5_2.png"><br>|
 
-===================================================================================
+========================================================================================
 
 # Câu hỏi 6: Đâu là đoạn code mà Server gán correlationID vào câu trả lời?
 # Câu hỏi 7: Dựa vào cả code của Client và Server để giải thích đâu là đoạn code mà Client gửi yêu cầu lên cho Server thông qua hàng đợi rpc_queue và tạo ra một hàng đợi mới để chờ câu trả lời của Server.
