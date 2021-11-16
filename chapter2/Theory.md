@@ -44,3 +44,5 @@ Mã HP: IT4611
   - Data di chuyển giữa các tầng sẽ chậm đi vì mất thời gian bóc tách và tìm ra đúng header
   - Mất đi tính trong suốt giữa các tầng
   - Việc phân tàng không còn ý nghĩa bởi lúc nào các tầng hoạt động như khối thống nhau và ảnh hưởng lẫn nhau khi update công nghệ
+
+
