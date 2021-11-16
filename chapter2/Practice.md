@@ -58,11 +58,36 @@ Mã HP: IT4611
 ========================================================================================
 
 ## Câu hỏi 9: Địa chỉ IP của 2 máy là gì? Làm sao để ping nhau?
+- Server IP
+<image src="./images/3/server-ip.png"><br>
+
+- Client IP
+<image src="./images/3/client-ip.png"><br>
+
+- 2 máy thuộc cùng 1 mạng nên có thể ping nhau
+
 ## Câu hỏi 10: Bạn đã xem được video trên máy client chưa? Đánh giá chất lượng video mà bạn xem trên máy client.
+- Em đã xem được video trên máy client
+<image src="./images/3/q10.png"><br>
+
+
 ## Câu hỏi 11: Kết quả nhận được sau lệnh ping là gì? Bạn có thấy độ trễ đã tăng 100ms không?
-## Câu hỏi 12: Kết quả nhận được sau lệnh ping là gì? Bạn có thấy độ trễ đã tăng 100ms không?
+- Độ trễ đã tăng 100ms
+
+<image src="./images/3/before_delay.png"><br>
+<image src="./images/3/after_delay.png"><br>
+
 ## Câu hỏi 13: Cũng như câu hỏi 7, hãy quan sát video ở Client và đưa ra đánh giá và kết luận về ảnh hưởng của độ biến đổi delay lên chất lượng dịch vụ truyền video.
+- Không có thay đổi đáng kể khi truyền video với kết quả ở câu trên nhưng khi truyền nhiều lần thì độ trễ khi load video ở client là khác nhau
 ## Câu hỏi 14: Hãy xem video ở client và đánh giá về độ ảnh hưởng của packet loss lên chất lượng dịch vụ truyền video. Thử tăng giá trị của tỷ lệ mất gói tin lên để thấy độ ảnh hưởng rõ nét hơn.
+- Với giá trị 0.1% thì chất lượng video ở Client vẫn khá ổn nhưng âm thanh có bị ngắt quãng
+- Khi tăng giá trị của tỉ lệ mất gói tin thì tần suất âm thanh ngắt quãng nhiều hơn và chất lượng hình ảnh cũng giảm đi. Khi tăng giá trị đến gần 50% thì gần như không thể load được hình ảnh trên client
+
 ## Câu hỏi 15: Hãy xem video ở client và đánh giá về độ ảnh hưởng của việc biến đổi packet loss lên chất lượng dịch vụ truyền video. Thử tăng giá trị của tỷ lệ mất gói tin lên để thấy độ ảnh hưởng rõ nét hơn.
+- Khi giá trị là 0.3% thì không có nhiều sự thay đổi so với câu trên nhưng khi tăng giá trị lên lớn hơn thì nhận thấy sự đứt quãng là không đều.
 ## Câu hỏi 16: Hãy xem video ở client và đánh giá về độ ảnh hưởng của việc lặp gói tin lên chất lượng dịch vụ truyền video. Thử tăng giá trị của tỷ lệ lặp gói tin lên để thấy độ ảnh hưởng rõ nét hơn.
+- Tương tự như mất gói tin, Với giá trị 1% thì chất lượng video ở Client vẫn khá ổn nhưng âm thanh có bị ngắt quãng
+- Khi tăng giá trị của tỉ lệ lặp gói tin thì tần suất âm thanh ngắt quãng nhiều hơn và chất lượng hình ảnh cũng giảm đi. 
+
 ## Câu hỏi 17: Hãy xem video ở client và đánh giá về độ ảnh hưởng của việc đảo thứ tự gói tin lên chất lượng dịch vụ truyền video.
+- Chất lượng video kém đi. Âm thanh bị ngắt quãng liên tục, có tạp âm.
