@@ -37,10 +37,12 @@ Mã HP: IT4611
 ## Câu hỏi 7: Dựa vào cả code của Client và Server để giải thích đâu là đoạn code mà Client gửi yêu cầu lên cho Server thông qua hàng đợi rpc_queue và tạo ra một hàng đợi mới để chờ câu trả lời của Server.
 
 - Gửi yêu cầu thông qua hàng đợi rpc_queue
+
 <image src="./images/2/q7_1.png"><br> 
 <image src="./images/2/q7_2.png"><br>
 
 - Tạo hàng đợi mới để trả lời
+
 <image src="./images/2/q7_3.png"><br>
 
 
